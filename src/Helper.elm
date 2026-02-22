@@ -22,7 +22,13 @@ evalChars chars predicate =
 headers : String -> Html msg
 headers content =
     div []
-        [ h1 [] [ text content ] ]
+        [ h1 [] [ text content ]
+        , h2 [] [ text content ]
+        , h3 [] [ text content ]
+        , h4 [] [ text content ]
+        , h5 [] [ text content ]
+        , h6 [] [ text content ]
+        ]
 
 
 hyperlink : String -> String -> Html msg
